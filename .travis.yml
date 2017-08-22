@@ -4,8 +4,9 @@ python:
 install:
   - pip install pytest-cov
   - pip install python-coveralls
+before script:
+  - py.test --cov=UberClon test/
 script:
   - bash test.sh
-  - py.test --cov=UberClon test/
 after_success:
   - coveralls
