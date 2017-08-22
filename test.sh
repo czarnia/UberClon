@@ -1,2 +1,2 @@
 cd ./test
-python -m unittest TestHelloWorld
+python3 -m unittest TestHelloWorld
