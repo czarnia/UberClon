@@ -6,7 +6,7 @@ import HelloWorld
 
 class TestHelloWorld(unittest.TestCase):
 
-    def testReturnIsCorrect(self):
+    def test_ReturnIsCorrect(self):
         message = HelloWorld.helloWord()
         self.assertEqual(message, "Hello world!")
 
