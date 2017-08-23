@@ -2,12 +2,12 @@ import unittest
 
 import sys
 sys.path.append('../src')
-import HelloWorld
+import helloWorld
 
 class TestHelloWorld(unittest.TestCase):
 
     def test_ReturnIsCorrect(self):
-        message = HelloWorld.helloWord()
+        message = helloWorld.helloWord()
         self.assertEqual(message, "Hello world!")
 
 if __name__ == '__main__':
