@@ -10,5 +10,9 @@ class TestHelloWorld(unittest.TestCase):
         message = helloWorld.helloWord()
         self.assertEqual(message, "Hello world!")
 
+    def test_Split(self):
+        message = helloWorld.helloWord()
+        self.assertEqual(message[0], "H")
+        
 if __name__ == '__main__':
     unittest.main()
