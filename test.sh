@@ -1,2 +1,2 @@
 cd ./test
-py.test
+py.test --cov-report term-missing --cov .
