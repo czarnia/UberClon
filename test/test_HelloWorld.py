@@ -1,7 +1,7 @@
 import unittest
 
 import sys
-sys.path.append('../src/AppServer')
+sys.path.append('../src')
 import helloWorld
 
 class TestHelloWorld(unittest.TestCase):
@@ -13,6 +13,6 @@ class TestHelloWorld(unittest.TestCase):
     def test_Split(self):
         message = helloWorld.helloWord()
         self.assertEqual(message[0], "H")
-
+        
 if __name__ == '__main__':
     unittest.main()
